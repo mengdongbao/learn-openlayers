@@ -1,0 +1,1 @@
+alert('Openlayers demo')
