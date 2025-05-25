@@ -1,8 +1,6 @@
 import "ol/ol.css";
 import Map from 'ol/Map';
 import View from 'ol/View';
-import TileLayer from 'ol/layer/Tile';
-import XYZ from 'ol/source/XYZ';
 import {getBaseLayer} from 'src/utils/basemap';
 
 const map = new Map({
