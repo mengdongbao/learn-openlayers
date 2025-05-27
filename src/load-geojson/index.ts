@@ -31,5 +31,5 @@ Reflect.set(window, 'map', map);
   const vectorLayer = new VectorLayer({
     source: vectorSource,
   });
-  map.getLayers().push(vectorLayer);
+  map.addLayer(vectorLayer);
 })();
